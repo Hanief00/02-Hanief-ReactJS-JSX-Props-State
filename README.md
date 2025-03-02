@@ -11,60 +11,99 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+|  | Pemrograman Berbasis Framework 2025 |
+|--|--|
+| NIM |  2241720181 |
+| Nama |  Hanief Mochsin |
+| Kelas | TI - 3C |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Langkah Pertama Membuat Komponen
+![image](https://github.com/user-attachments/assets/09d7d861-724f-45e3-b47e-5a5f9e4efe5e)
 
-### `npm run build`
+![image](https://github.com/user-attachments/assets/828d09d2-cf1e-47a4-ad5b-9a6517ee4a06)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Selanjutnya Menggunakan JSX untuk Membuat Komponen Dinamis
+1. Buat file baru di direktori src dengan nama Counter.js.
+2. Tambahkan kode berikut untuk membuat komponen Counter
+   
+   ![image](https://github.com/user-attachments/assets/4e1589f9-a6c4-4dc0-a8a7-27da0ee2b652)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. impor komponen Counter dan Tambahkan komponen Counter ke dalam komponen src/App.js
+![image](https://github.com/user-attachments/assets/84519842-bc4f-43ed-9a9e-3e0d14d8aebd)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+(tambahkan didalam div function app)
 
-### `npm run eject`
+![image](https://github.com/user-attachments/assets/b3c3c339-a880-470d-9812-f0d406688d89)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Anda akan melihat tombol "Tambah" yang dapat 
+meningkatkan hitungan saat diklik.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://github.com/user-attachments/assets/2e45727b-c871-41ac-841f-2472b5077441)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Menggunakan Props untuk Mengirim Data
+1. Buat file baru di direktori src dengan nama Greeting.js dan tambahkan kode untuk membuat komponen Greeting yang menerima props
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://github.com/user-attachments/assets/822a75eb-61f5-45ca-a9c8-47f7aab7514c)
 
-## Learn More
+2. Lalu import komponen Greeting di App.js tambahkan komponen Greeting di function Appdan kirim props name
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://github.com/user-attachments/assets/71b8b53e-b0b6-4595-890f-f041aab76d75)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+(sama seperti sebelumnya taruh di div dan ubah nama "soto" menjadi sesuka hati
 
-### Code Splitting
+![image](https://github.com/user-attachments/assets/34080428-41c7-45e5-90ca-9bd1fdcc5b12)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3.  Anda akan melihat pesan "Halo, soto!" yang 
+ditampilkan oleh komponen Greeting.
 
-### Analyzing the Bundle Size
+![image](https://github.com/user-attachments/assets/2afd4404-ffbf-4da5-bc33-c92828c9b717)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Menggunakan State untuk Mengelola Data 
 
-### Making a Progressive Web App
+1.  tambahkan kode berikut untuk membuat komponen yang mengelola 
+state didalam App.js dan Tambahkan komponen Example ke dalam komponen App: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![image](https://github.com/user-attachments/assets/85f42433-5411-4ecb-8d22-83dc2a7b05ed)
 
-### Advanced Configuration
+![image](https://github.com/user-attachments/assets/12bb3e68-10ec-476a-9efb-fbb34ff7fcf2)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![image](https://github.com/user-attachments/assets/d1effa08-2f99-4ed3-b37e-02664a13e245)
 
-### Deployment
+2. Anda akan melihat form input yang dapat 
+mengupdate state dan menampilkan data yang dimasukkan.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![image](https://github.com/user-attachments/assets/4aa77920-b4b5-48b6-a657-35fbf62d170b)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Tugas
+1. Buat komponen baru bernama TodoList yang menampilkan daftar tugas (todo list). Gunakan 
+state untuk mengelola daftar tugas dan props untuk mengirim data tugas ke komponen anak. 
+2. Tambahkan fitur untuk menambahkan tugas baru ke dalam daftar menggunakan form input. 
+3. Implementasikan fitur untuk menghapus tugas dari daftar.
+
+* buat file baru di src TodoList.js
+  ![image](https://github.com/user-attachments/assets/08c8bcfd-4997-4fbb-8926-eb0625e97e68)
+
+* Setelah itu tambahkan kode kedalamnya
+  ![image](https://github.com/user-attachments/assets/5cc66a39-cf8e-42c8-ac71-c66851c008dd)
+
+* Lalu import komponen TodoList yang sudah kita buat dan jangan lupa tambahkan komponen TodoList di function app
+  ![image](https://github.com/user-attachments/assets/3b772dee-9f5d-4d8c-b927-948a551d9f30)
+
+  ![image](https://github.com/user-attachments/assets/1a6eea66-c655-4641-b386-c6e0aa609ce5)
+
+* Anda akan melihat form input yang dapat menambahkan tugas dan menampilkan data yang dimasukkan serta menghapus yang telah kita tambahkan.
+
+![image](https://github.com/user-attachments/assets/f19b20c4-9778-415b-8875-c2b6bb772a21)
+
+![image](https://github.com/user-attachments/assets/cdf93dfd-6bd2-40bb-91a5-4101683e72f6)
+
+![image](https://github.com/user-attachments/assets/e5675277-7c16-4013-b6be-52ea9253d499)
+
+
+
+
+
+
+
